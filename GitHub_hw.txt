@@ -1,0 +1,314 @@
+JSON 4. Создать внешний репозиторий c названием JSON.
+
+Зайти в github.com, во вкладку Repositories , нажать new, вписать имя и нажать create repository.
+Создать ключ: ssh-keygen -t rsa -C “JSON”
+
+5. Клонировать репозиторий JSON на локальный компьютер.
+
+Git clone (link ssh on github): git@github.com:loveinsneakers/JSON.git
+
+6. Внутри локального JSON создать файл “new.json”.
+
+Cat >>new.json
+
+Добавить файл под гит.
+
+git add new.json
+
+8. Закоммитить файл.
+
+git commit -m "add new.json"
+
+9. Отправить файл на внешний GitHub репозиторий.
+
+git push
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+vim new.json
+
+{
+        "Name": "Shevchenko Lyubov Evgenevna",
+        "Age": 32,
+        "Animals": "no",
+        "Future Salary": 1500
+}
+
+11. Отправить изменения на внешний репозиторий.
+
+git add .
+git commit -m "update new.json"
+git push
+
+12. Создать файл preferences.json
+
+vim preferences.json
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+{
+        "Movie": "Child from Mars",
+        "Series": "Sex in the city",
+        "Food": "pasta",
+        "Season": "Autumn",
+        "Country would be in": "United Kingdom"
+}
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+vim skills.json
+{
+        "Skills": "Hard",
+        "Skills": "Soft"
+}
+
+15. Отправить сразу 2 файла на внешний репозиторий. 
+
+git add .
+git commit -m "two new files"
+git push
+
+16. На веб интерфейсе создать файл bug_report.json.
+
+Add file
+Create new file
+Name bug_report.json
+
+{
+"Bug_id": 1,
+"Severity": "Minor",
+"Priority": "low",
+"Title": "Doubling of the term card 'Government Bond' in section 'Glossary'",
+"Precondition": "App is open"
+"Steps": ["1. Tap 'Glossary' in tab bar, 2. Enter 'Government Bond' in the search line"],
+"Environment": [ "Xiaomi Redmi note 9 pro", "Samsung Galaxy A8" "Xiaomi Redmi 5 Plus"],
+"AR": "The 'Government Bond' card is duplicated twice",
+"ER": "The 'There is one 'Government Bond' term card",
+"Attachments": "Link"
+
+}
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit new file
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+Go to file
+Edit file
+
+{
+
+"Bug_id": 1,
+"Severity": "Minor",
+"Priority": "low",
+"Title": "Doubling of the term card 'Government Bond' in section 'Glossary'",
+"Precondition": "App is open"
+"Steps": ["1. Tap 'Glossary' in tab bar, 2. Enter 'Government Bond' in the search line"],
+"Environment": [ "Xiaomi Redmi note 9 pro", "Samsung Galaxy A8" "Xiaomi Redmi 5 Plus"],
+"AR": "The 'Government Bond' card is duplicated twice",
+"ER": "The 'There is one 'Government Bond' term card",
+"Attachments": "Link"
+
+}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit Changes
+
+20. Синхронизировать внешний и локальный репозиторий JSON.
+
+git clone sshlink
+
+XML 
+21.Создать внешний репозиторий c названием XML. 
+
+Зайти в github.com, во вкладку Repositories , нажать new, вписать имя и нажать create repository.
+Создать ключ: ssh-keygen -t rsa -C “XML”
+
+22. Клонировать репозиторий XML на локальный компьютер.
+
+Git Clone gitlinkXML
+Cd XML
+
+23. Внутри локального XML создать файл “new.xml”.
+
+Cat >> new.xml
+
+24. Добавить файл под гит.
+
+git add new.xml
+
+25. Закоммитить файл.
+
+git commit -m "new xml here"
+
+26. Отправить файл на внешний GitHub репозиторий.
+
+Git push
+
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. 
+
+Vim new.xml
+<!--?xml version="1.0"?-->
+<Personal>
+        <Name>Shevchenko</Name>
+        <Age>32</Age>
+        <Animals>0</Animals>
+        <Salary>1500</Salary>
+
+</Personal>
+
+28. Отправить изменения на внешний репозиторий.
+
+$ git add .
+git commit -m "update xml file"
+git push
+
+29. Создать файл preferences.xml 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+<!--?xml version="1.0"?-->
+<Personal>
+        <Movie>sweet november</Movie>
+        <Series>Friends</Series>
+        <Food>nutella</Food>
+        <Season>summer</Season>
+        <Country>Greece</Country>
+
+</Personal>
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+
+<!--?xml version="1.0"?-->
+<Skills>
+        <Skills_1>testing documentation</Skills>
+        <Skills_2>sql</Skills_2>
+        <Skills_3>postman</Skills_3>
+        <Skills_4>Charles</Skills_4>
+        <Skills_5>Git terminal</Skills_5>
+
+</Skills>
+
+32. Сделать коммит в одну строку.
+
+git add . | git commit -m "this is update xml file"
+
+33. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+34. На веб интерфейсе создать файл bug_report.xml.
+
+Add file
+Create new file
+Name bug_report.xml
+
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit Changes
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+Go to file
+Edit file
+<!--?xml version="1.0"?-->
+<Bug Report>
+        <Id>01</Id>
+        <Summary>Logo on the main page doesn't exist</Summary>
+        <STR>Open main page hello.com</STR>
+        <AR>Logo on the main page doesn't exist</AR>
+        <ER>Logo on the main page exist</ER>
+        <Severity>minor</Severity>
+        <Priority>High</Priority>
+</Bug Report>
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit Changes
+
+38. Синхронизировать внешний и локальный репозиторий XML
+
+git clone git@github.com:loveinsneakers/XML.git
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+Зайти в github.com, во вкладку Repositories , нажать new, вписать имя и нажать create repository.
+Создать ключ: ssh-keygen -t rsa -C “TXT”
+
+2. Клонировать репозиторий TXT на локальный компьютер.
+
+git clone sshlink
+
+3. Внутри локального TXT создать файл “new.txt”.
+
+cd TXT
+cat >> new.txt
+
+4. Добавить файл под гит.
+
+git add new.txt
+
+5. Закоммитить файл.
+
+git commit -m "add new.txt file"
+
+6. Отправить файл на внешний GitHub репозиторий
+
+git push
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+$ cat >> new.txt
+
+8. Отправить изменения на внешний репозиторий.
+
+git add new.txt
+git commit -m "update new.txt file"
+git push
+
+9. Создать файл preferences.txt
+
+cat >> preferences.txt
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+vim preferences.txt
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+$ cat >> skills.txt
+first skill soft
+second Skill: HARD
+
+12. Сделать коммит в одну строку.
+
+git add . | git commit -m "two"
+
+13. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+14. На веб интерфейсе создать файл bug_report.txt.
+
+Add file
+Create new file
+Name bug_report.txt
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit Changes
+
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+Go to file
+Edit file
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit changes
+
+18. Синхронизировать внешний и локальный репозиторий TXT
+
+git clone git@github.com:loveinsneakers/TXT.git
+
